@@ -9,7 +9,7 @@ namespace DataAccess.Abstract
     {
         List<Car> GetAll();
 
-        List<Car> GetById();
+        List<Car> GetById(int carId);
 
         void Add(Car car);
 
